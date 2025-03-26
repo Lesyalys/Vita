@@ -1,0 +1,12 @@
+.gameComp{
+
+    width: 400px;
+    height: 100%;
+
+    border-radius: 30px;
+    transition: filter 300ms;
+}
+
+.gameComp:hover{
+    filter: drop-shadow(0 0 2em #6e64ff73);
+}
