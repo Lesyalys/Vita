@@ -1,12 +1,27 @@
 .gameComp{
-
-    width: 400px;
-    height: 100%;
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: #6e64ff73;
+    box-shadow: 0 0 100px  #6e64ff73;
 
     border-radius: 30px;
     transition: filter 300ms;
 }
 
 .gameComp:hover{
-    filter: drop-shadow(0 0 2em #6e64ff73);
+    filter: drop-shadow(0 0 2em #fa64ff73);
 }
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    padding: 10px;
+  }
+
+  #MyAPPP {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }

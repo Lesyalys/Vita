@@ -4,7 +4,9 @@ export function showPage2(element) {
     element.innerHTML  = `
     <div>    
     
-    <div class ="gameComp"/>
+    <div class ="gameComp">
+
+    </div>
   </div>
     `
     
