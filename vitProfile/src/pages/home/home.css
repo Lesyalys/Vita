@@ -1,3 +1,9 @@
+#MyAPPP {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
 .gameComp{
     display: flex;
     width: 600px;
@@ -10,6 +16,10 @@
     overflow: hidden;
 }
 
+.gameComp:hover{
+    filter: drop-shadow(0 0 2em #fa64ff73);
+}
+
 .gameCompUl{
     display: flex;
     width: 600px;
@@ -19,19 +29,22 @@
     transition: filter 300ms;
 }
 
-.gameComp:hover{
-    filter: drop-shadow(0 0 2em #fa64ff73);
+.gameCompUl > ul{
+    padding: 0px;
 }
 
 .showPage2Li{
-    padding: 0;
+    padding: 5px;
     align-items: center;
     justify-content: center;
     display: flex;
     width: 15ex;
     height: 45ex;
     background-color: 6e64ff73;
-    box-shadow:  0 0 50px #6e64ff73;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* box-shadow:  0 0 50px #6e64ff73; */
 
     list-style-type: none;
     display: inline-flex;
@@ -41,13 +54,31 @@
 }
 
 .showPage2Li:hover{
-    filter: drop-shadow( 0 0 2em #fa64ff73);
+    filter: drop-shadow( 0 0 2em #6e64ff73);
+    width: 10em;
 }
 
 .showPage2Li.active{
     flex: 10;
 }
 
+
+#li1{
+
+    background-image: url('https://sun9-78.userapi.com/impg/ix-3DX9UeMwmuqZ0sxo0jBPLeBd8VXWfjIyAmQ/XpbPc6ujWLY.jpg?size=1080x1920&quality=95&rotate=270&sign=aba7491c089310f8d734c4654bdd6fa2&type=album');
+}
+#li2{
+
+    background-image: url('https://sun9-46.userapi.com/impg/G7DTh69kmrcpWJTTWDDdWsk67wbcYAgd_25dCA/qsJSsEXDd_A.jpg?size=1399x1417&quality=95&sign=e5f5ed12e57d5e6f0feb657693e1f4e1&type=album');
+}
+#li3{
+
+    background-image: url('https://kartinki.pics/uploads/posts/2021-07/1625871920_7-kartinkin-com-p-mislitel-art-art-krasivo-7.jpg');
+}
+#li4{
+
+    background-image: url('https://sun9-2.userapi.com/impg/r4OLhmVBs0t2Jo3F7_MKzAPD4WHglqheSOYt3Q/n5x1FJh2Lek.jpg?size=1890x1417&quality=95&sign=f92bd1cfa038db4967bec117e07221d7&type=album');
+}
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
@@ -61,13 +92,6 @@ h2 {
     padding-left: 10px;
     width: 100%;
     margin: 0;
-  }
-
-  #MyAPPP {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
   }
 
   

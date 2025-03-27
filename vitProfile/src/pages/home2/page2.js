@@ -5,10 +5,10 @@ export function showPage2(element) {
     <div class = "gameCompUl">    
     
     <ul>
-    <li class ="showPage2Li">fd</li>
-    <li class ="showPage2Li">fd</li>
-    <li class ="showPage2Li">fd</li>
-    <li class ="showPage2Li">fd</li>
+    <li class ="showPage2Li" id="li1">fd</li>
+    <li class ="showPage2Li" id="li2">fd</li>
+    <li class ="showPage2Li" id="li3">fd</li>
+    <li class ="showPage2Li" id="li4">fd</li>
 
     </ul>
   </div>
