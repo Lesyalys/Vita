@@ -4,8 +4,10 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #c6c5d7;
+  /* background-color: #242424; */
+  background-image: radial-gradient(at center bottom, #5751bc 10%,#323279 20%,#1d1e4c 35%,  #0f1121 60%, #0f101a 100%);
+  background-repeat: no-repeat;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -47,45 +49,39 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 10px;
+  flex-direction: column;
+  display: flex;
 }
 
 #underHeader{
-  padding-left: 10px;
   font-size: 20px;
-
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
+#iconMe{
+  width: 150px;
+  border-radius: 100px;
   filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+  transition: 300ms;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+#iconMe:hover{
+  filter: drop-shadow(0 0 2em #dcdfcdaa);
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 1px 1.2em;
   font-size: 3em;
   font-weight: 900;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #c6c5d7;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: filter 300ms;
+}
+
+.btn{
+  color: #0f1121
 }
 
 li {
@@ -94,6 +90,7 @@ li {
   padding: 10px;
   
 }
+
 button:hover {
   border-color: #6e64ff73;
   filter: drop-shadow(0 0 1em #646cffaa);

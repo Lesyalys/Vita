@@ -1,17 +1,25 @@
-import { home } from "./../home/home"
+// import "../../style.css"
 
 export function showPage2(element) {
     element.innerHTML  = `
-    <div>    
+    <div class = "gameCompUl">    
     
-    <div class ="gameComp">
+    <ul>
+    <li class ="showPage2Li">fd</li>
+    <li class ="showPage2Li">fd</li>
+    <li class ="showPage2Li">fd</li>
+    <li class ="showPage2Li">fd</li>
 
-    </div>
+    </ul>
   </div>
     `
-    
-    element.addEventListener('click', () => home(element))
-    // setCounter(0)
+
+  document.querySelector('#header h1').innerHTML = `
+      <h2>My stack:
+      <p id="underHeader">Fortend development:</p>
+      <p id="underHeader">Design:</p>
+      </h2>
+      `
   }
 
 
