@@ -51,6 +51,7 @@ body {
   font-size: 10px;
   flex-direction: column;
   display: flex;
+  width: 100%;
 }
 
 #underHeader{

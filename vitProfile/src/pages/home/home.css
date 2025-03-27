@@ -52,12 +52,15 @@ h1 {
     font-size: 3.2em;
     line-height: 1.1;
     padding-left: 10px;
+    width: 80%;
   }
 
 h2 {
-    font-size: 2.2em;
-    line-height: 1.1;
+    /* font-size: 2.2em;
+    line-height: 1.1; */
     padding-left: 10px;
+    width: 100%;
+    margin: 0;
   }
 
   #MyAPPP {
