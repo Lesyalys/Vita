@@ -9,9 +9,17 @@ export function home(element) {
 `
 document.querySelector('#header h1').innerHTML = `
       <h2>My contact:
-      <p id="underHeader">mail:</p>
-      <p id="underHeader">tg:</p>
       </h2>
+
+      <ul>
+        <li class="underHearUl"><p id="underHeader">mail:</p></li>
+        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
+      </ul>
+
+      <ul>
+        <li class="underHearUl"><p id="underHeader">tg:</p></li>
+        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
+      </ul>
       `
   
 }
