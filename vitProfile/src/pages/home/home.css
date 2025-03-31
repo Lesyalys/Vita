@@ -3,6 +3,8 @@
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    padding-top: 0;
+    margin-bottom: 100px;
   }
 .gameComp{
     display: flex;
@@ -34,16 +36,19 @@
 }
 
 .showPage2Li{
+    overflow: hidden;
     padding: 5px;
     align-items: end;
     justify-content: center;
     display: flex;
     width: 16ex;
-    height: 45ex;
-    background-color: 6e64ff73;
+    height: 70ex;
+    background-color: #6e64ff73;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    
     /* box-shadow:  0 0 50px #6e64ff73; */
 
     list-style-type: none;
@@ -56,6 +61,7 @@
 .showPage2Li:hover{
     filter: drop-shadow( 0 0 2em #6e64ff73);
     width: 10em;
+    color: #6e64ff;
 }
 
 .showPage2Li.active{
@@ -80,6 +86,7 @@
     background-image: url('https://sun9-2.userapi.com/impg/r4OLhmVBs0t2Jo3F7_MKzAPD4WHglqheSOYt3Q/n5x1FJh2Lek.jpg?size=1890x1417&quality=95&sign=f92bd1cfa038db4967bec117e07221d7&type=album');
 }
 h1 {
+    height: 300px;
     font-size: 3.2em;
     line-height: 1.1;
     /* padding-left: 10px; */

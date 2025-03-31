@@ -19,21 +19,25 @@ export function showPage2(element) {
       </h2>
       <ul>
         <li class="underHearUl"><p id="underHeader">Fortend development:</p></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
+        <li class="underHearUl" id="iconHtml"></li>
+        <li class="underHearUl" id="iconCss"></li>
+        <li class="underHearUl" id="iconJs"></li>
+        <li class="underHearUl" id="iconFlutter"></li>
       </ul>
 
       <ul>
         <li class="underHearUl"><p id="underHeader">Design:</p></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
+        <li class="underHearUl" id="iconFigma"></li>
+        <li class="underHearUl" id="iconTilda"></li>
+        <li class="underHearUl" id="iconPs"></li>
+      </ul>
+
+      <ul>
+        <li class="underHearUl"><p id="underHeader">See more:</p></li>
       </ul>
       `
   }
+  
 
 
   
