@@ -34,6 +34,7 @@ export function showPage2(element) {
 
       <ul>
         <li class="underHearUl"><p id="underHeader">See more:</p></li>
+        <li class="underHearUl" id="iconArtstation"></li>
       </ul>
       `
   }

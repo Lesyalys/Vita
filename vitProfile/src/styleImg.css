@@ -7,7 +7,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/htmlicon.png);
+    background-image: url(htmlicon.png);
     transition: 300ms ease-in-out;
 }
 #iconHtml:hover{
@@ -15,7 +15,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/html.png);
+    background-image: url(html.png);
     transition: 300ms ease-in-out;
 }
 
@@ -24,7 +24,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/cssIcon.png);
+    background-image: url(cssIcon.png);
     transition: 300ms ease-in-out;
 }
 #iconCss:hover{
@@ -32,7 +32,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/css.png);
+    background-image: url(css.png);
     transition: 300ms ease-in-out;
 }
 
@@ -41,7 +41,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/jsicon.png);
+    background-image: url(jsicon.png);
     transition: 300ms ease-in-out;
 }
 #iconJs:hover{
@@ -49,7 +49,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/js.png);
+    background-image: url(js.png);
     transition: 300ms ease-in-out;
 }
 
@@ -58,7 +58,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/flutterIconn.png);
+    background-image: url(flutterIconn.png);
     transition: 300ms ease-in-out;
 }
 #iconFlutter:hover{
@@ -66,7 +66,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/flutter.png);
+    background-image: url(flutter.png);
     transition: 300ms ease-in-out;
 }
 
@@ -78,7 +78,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/figmaIcon.png);
+    background-image: url(figmaIcon.png);
     transition: 300ms ease-in-out;
 }
 #iconFigma:hover{
@@ -86,7 +86,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/figma.png);
+    background-image: url(figma.png);
     transition: 300ms ease-in-out;
 }
 
@@ -95,7 +95,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/tildaIcon.png);
+    background-image: url(tildaIcon.png);
     transition: 300ms ease-in-out;
 }
 #iconTilda:hover{
@@ -103,7 +103,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/tilda.png);
+    background-image: url(tilda.png);
     transition: 300ms ease-in-out;
 }
 
@@ -112,7 +112,7 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/photoshopIcon.png);
+    background-image: url(photoshopIcon.png);
     transition: 300ms ease-in-out;
 }
 #iconPs:hover{
@@ -120,7 +120,26 @@ img{
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(/public/photoshop.png);
+    background-image: url(photoshop.png);
     transition: 300ms ease-in-out;
 }
+
+
+
+#iconArtstation{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(artstationIcon.png);
+    transition: 300ms ease-in-out;
+}
+/* #iconPs:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(photoshop.png);
+    transition: 300ms ease-in-out;
+} */
 
