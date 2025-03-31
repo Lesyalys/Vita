@@ -16,9 +16,10 @@ export function showHeader(element) {
     `
     document.querySelector('#MyAPPP').innerHTML = `
     <div>
-    <img src="https://i.pinimg.com/736x/1d/7f/7a/1d7f7a40008634b26788b76525f897f8.jpg" class ="gameComp" alt="JavaScript logo" />
+    <canvas id="demonRive"></canvas>
 
-  </div>
+    </div>
+    <script src ="../rive/riveJs.js"></script>
     `
 
     element.querySelector('#workBtn').addEventListener('click', () => showPage2(document.querySelector('#MyAPPP')))
@@ -27,7 +28,7 @@ export function showHeader(element) {
   }
 
 
-  
+   
 
 
 
