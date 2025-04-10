@@ -8,15 +8,16 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(htmlicon.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
 #iconHtml:hover{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(html.png);
-    transition: 300ms ease-in-out;
+    background-image: url(html.png); */
+    filter: drop-shadow(0 0 10px #ff8864aa);
+    transition: 300ms ;
 }
 
 #iconCss{
@@ -25,15 +26,16 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(cssIcon.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
 #iconCss:hover{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(css.png);
-    transition: 300ms ease-in-out;
+    background-image: url(css.png); */
+    filter: drop-shadow(0 0 10px #6495ffaa);
+    transition: 300ms ;
 }
 
 #iconJs{
@@ -42,15 +44,16 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(jsicon.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
 #iconJs:hover{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(js.png);
-    transition: 300ms ease-in-out;
+    background-image: url(js.png); */
+    filter: drop-shadow(0 0 10px #fff564aa);
+    transition: 300ms ;
 }
 
 #iconFlutter{
@@ -59,15 +62,16 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(flutterIconn.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
 #iconFlutter:hover{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(flutter.png);
-    transition: 300ms ease-in-out;
+    background-image: url(flutter.png); */
+    filter: drop-shadow(0 0 10px #6495ffaa);
+    transition: 300ms ;
 }
 
 
@@ -79,15 +83,16 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(figmaIcon.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
 #iconFigma:hover{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(figma.png);
-    transition: 300ms ease-in-out;
+    background-image: url(figma.png); */
+    filter: drop-shadow(0 0 10px #ffa264aa);
+    transition: 300ms ;
 }
 
 #iconTilda{
@@ -96,15 +101,16 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(tildaIcon.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
 #iconTilda:hover{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(tilda.png);
-    transition: 300ms ease-in-out;
+    background-image: url(tilda.png); */
+    filter: drop-shadow(0 0 10px #eaedf5aa);
+    transition: 300ms ;
 }
 
 #iconPs{
@@ -113,15 +119,16 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(photoshopIcon.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
 #iconPs:hover{
-    width: 200px;
+    /* width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    background-image: url(photoshop.png);
-    transition: 300ms ease-in-out;
+    background-image: url(photoshop.png); */
+    filter: drop-shadow(0 0 10px #0043d4aa);
+    transition: 300ms ;
 }
 
 
@@ -132,14 +139,26 @@ img{
     background-size: cover;
     background-position: center;
     background-image: url(artstationIcon.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 }
+
+
+#iconArtstation:hover{
+     width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/vitProfile/public/ArtStMe.png');
+    /* filter: drop-shadow(0 0 10px #039affaa); */
+    transition: all 300ms;
+  
+  }
 /* #iconPs:hover{
     width: 200px;
     height: 50px;
     background-size: cover;
     background-position: center;
     background-image: url(photoshop.png);
-    transition: 300ms ease-in-out;
+    transition: 300ms ;
 } */
 
